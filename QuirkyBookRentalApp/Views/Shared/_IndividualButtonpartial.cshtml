@@ -1,0 +1,5 @@
+﻿@model QuirkyBookRentalApp.Models.IndividualButtonPartial
+
+<a href="@Url.Action(Model.Action)@Model.ActionParameter" type="button" class="btn @Model.ButtonType btn-sm">
+    <span class="glyphicon glyphicon-@Model.Glyph"></span>
+</a>
